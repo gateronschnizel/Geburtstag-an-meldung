@@ -1,0 +1,39 @@
+html {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em rgb(88, 88, 88);
+    border-radius: 30px;
+}
+
+.ueberschrift {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.container {
+
+}
+
+.btn-2{
+
+}
