@@ -28,17 +28,25 @@ function SubForm (){
 </head>
 <body>
   <div class="box">
+    <div class="responsive1">
     <p class="ueberschrift">Martins Geburtstag</p>
   <form id="myForm">
-    <label>Voller Name</label>
     <br/>
-    <input name="name" placeholder="Max Mustermann"/>
+    <div class="omrs-input-group">
+      <label class="omrs-input-underlined">
+    <input name="name" autocomplete="off" />
+    <span class="omrs-input-label">Name</span>
+  </label>
+</div>
     <br/>
-    <label>uhrzeit</label>
+    <div class="omrs-input-group">
+      <label class="omrs-input-underlined">
+    <input name="uhrzeit" autocomplete="off" />
+    <span class="omrs-input-label">uhrzeit</span>
+  </label>
+</div>
     <br/>
-    <input name="uhrzeit" placeholder="von 14:30 bis 22:00"/>
-    <br/>
-    <label>Datum</label>
+    <label class="datum">Datum</label>
     <br/>
     <label class="containerforcheck">4.8.21
     <input type="radio" id="age" name="datum" value="4.8.21" checked="checked" />
@@ -49,15 +57,17 @@ function SubForm (){
     <span class="checkmark"></span>
     </label>
     <br/>
-    <label>Nachricht</label>
-    <br/>
-    <input name="nachricht" placeholder="Ich bring noch einen kuchen mit." />
-    
-    <br/>
+    <div class="omrs-input-group">
+      <label class="omrs-input-underlined">
+    <input name="nachricht" autocomplete="off" />
+    <span class="omrs-input-label">Nachricht</span>
+  </label>
+</div>
     <br/>
   </form>
   <div class="container">
   <button onclick="SubForm()" class="btn-2"> Jetzt Eintragen</button>
+  </div>
   </div>
 </div>
 </body>
